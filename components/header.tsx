@@ -4,11 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { useFindCareHref } from "@/hooks/use-find-care-href";
-
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const findCareHref = useFindCareHref();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -38,7 +35,7 @@ export function Header() {
       <header className="header-main py-5 px-0 w-full bg-[#F6F2EA] sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="header-row flex items-center justify-between h-20">
-            <Link href="/" className="logo flex items-center">
+            <Link href="/" className="logo flex items-center gap-2">
               <Image
                 src="/logo.png"
                 alt="PawPair Logo"
@@ -48,6 +45,9 @@ export function Header() {
                 className="h-12 w-auto"
                 priority
               />
+              <span className="hidden sm:inline-flex px-2 py-0.5 bg-[#5F7E9D] text-white text-[11px] font-semibold rounded uppercase tracking-wide">
+                Beta
+              </span>
             </Link>
 
             <nav className="navigation hidden nav:flex items-center space-x-[49px] md:space-x-[15px] lg:space-x-[49px]">
@@ -70,7 +70,7 @@ export function Header() {
                 Contact
               </button>
               <Link
-                href={findCareHref}
+                href="/auth/login"
                 className="px-6 py-3 bg-[#5F7E9D] text-white font-modern font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white md:text-[14px] hover:text-[#5F7E9D] m-0 hover:border-[#5F7E9D] transition-all duration-300"
               >
                 Create Your Dog's Profile
@@ -155,7 +155,7 @@ export function Header() {
           </button>
 
           <Link
-            href={findCareHref}
+            href="/auth/login"
             onClick={() => setIsMenuOpen(false)}
             className={`mt-8 w-full max-w-[320px] text-center px-8 py-4 bg-[#5F7E9D] text-white font-modern font-normal text-[20px] leading-[100%] rounded-[14px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-500 ${
               isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"

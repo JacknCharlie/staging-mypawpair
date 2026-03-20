@@ -67,11 +67,11 @@ export function Footer() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16 py-24 md:py-32 pb-32 md:pb-40">
         <div className="flex flex-col items-center text-center md:max-w-[756px] md:mx-auto space-y-4">
           <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]">
-            Get Early Access to PawPair
+            PawPair is in Beta
           </h2>
 
           <p className="text-[16px] !mt-5 font-inter font-normal md:text-[18px] leading-[120%] text-[#fff]">
-            Be among the first dog owners to experience PawPair — the AI assistant designed to understand your dog. Join the waitlist to get early access, updates, and exclusive features before the public launch.
+            You&apos;re viewing our staging environment. PawPair is currently in beta — we&apos;re actively building and improving. Join the waitlist to get early access, updates, and help shape the product before our public launch.
           </p>
 
           {/* Email + Button Form */}
@@ -136,13 +136,13 @@ export function Footer() {
 
             <div className="max-w-2xl">
               <p className=" font-inter text-[16px] text-[#4A5563] font-['Inter'] md:text-[18px] font-normal leading-[120%] tracking-[0%]">
-              AI-powered care for your dog, starting in your neighborhood.
+              AI-powered care for your dog, starting in your neighborhood. <span className="font-medium text-[#5F7E9D]">Currently in Beta.</span>
               </p>
             </div>
 
             <div className="pt-6 w-full border-t border-[#000000]/10">
               <p className=" font-inter text-[16px] text-[#000000] font-['Inter'] md:text-[18px] font-normal leading-[120%] tracking-[0%] opacity-80">
-                © 2026 PawPair. All rights reserved.
+                © 2026 PawPair. All rights reserved. Staging / Beta environment.
               </p>
             </div>
           </div>

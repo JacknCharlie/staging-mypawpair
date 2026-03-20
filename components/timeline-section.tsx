@@ -97,14 +97,13 @@ export function TimelineSection() {
     >
       <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-16">
         <div className="text-center mb-16 md:mb-20">
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="flex items-center justify-center gap-3 mb-4 flex-wrap">
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]"
-              
             >
               How PawPair Works
             </h2>
-          
+            <span className="px-2.5 py-1 bg-white/25 text-white text-[13px] font-semibold rounded">Beta</span>
           </div>
           <p
             className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-center text-[#fff]"

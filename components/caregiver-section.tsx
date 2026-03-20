@@ -83,8 +83,9 @@ export function CaregiverSection() {
           >
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#2F3E4E]"
-        >
+            >
               Your Dog Has an AI Companion
+              <span className="ml-2 inline-block px-2 py-0.5 bg-[#5F7E9D]/15 text-[#5F7E9D] text-[14px] font-semibold rounded align-middle">Beta</span>
             </h2>
 
             <p
