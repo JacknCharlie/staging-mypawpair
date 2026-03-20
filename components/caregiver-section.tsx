@@ -33,18 +33,18 @@ export function CaregiverSection() {
   const features = [
     {
       icon: "/one.png",
-      title: "Knows your dog",
-      description: "PawPair remembers your dog’s breed, age, health conditions, and habits.",
+      title: "Learning your dog",
+      description: "In beta we're building profiles that remember breed, age, health, and habits.",
     },
     {
       icon: "/two.png",
-      title: "24/7 answers",
-      description: "Ask questions anytime — from nutrition to behavior.",
+      title: "Always available",
+      description: "Beta feature: ask questions anytime — we're testing nutrition and behavior.",
     },
     {
       icon: "/three.png",
-      title: "Guidance that grows",
-      description: "The more you use PawPair, the smarter your dog’s profile becomes.",
+      title: "Improving over time",
+      description: "The more beta testers use the app, the smarter we get before launch.",
     },
   ];
 
@@ -84,7 +84,7 @@ export function CaregiverSection() {
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#2F3E4E]"
             >
-              Your Dog Has an AI Companion
+              We&apos;re Building an AI Companion for Your Dog
               <span className="ml-2 inline-block px-2 py-0.5 bg-[#5F7E9D]/15 text-[#5F7E9D] text-[14px] font-semibold rounded align-middle">Beta</span>
             </h2>
 
@@ -92,7 +92,7 @@ export function CaregiverSection() {
               className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563] mt-[20px] "
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-           Ask PawPair anything and get instant answers tailored to your dog.
+              In beta we&apos;re testing how PawPair learns and responds to your dog&apos;s profile.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-[40px]">

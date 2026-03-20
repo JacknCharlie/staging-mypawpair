@@ -6,23 +6,23 @@ import { useEffect, useRef } from "react";
 const milestones = [
   {
     label: "Week 1-4",
-    description: "Early bonding & sleep routines",
+    description: "Early bonding and sleep routines (beta)",
   },
   {
     label: "Week 5-8",
-    description: "Socialization begins",
+    description: "Socialization begins (testing)",
   },
   {
     label: "Week 9-12",
-    description: "Basic training milestones",
+    description: "Basic training milestones (beta)",
   },
   {
     label: "Month 4-6",
-    description: "Teething & behavior changes",
+    description: "Teething and behavior changes (beta)",
   },
   {
     label: "Month 7-12",
-    description: "Confidence & routine building",
+    description: "Confidence and routine building (beta)",
   },
 ];
 
@@ -189,7 +189,7 @@ export function PuppyFirstYearSection() {
             {/* Heading */}
             <h2 className="font-['Modern_Sans'] font-normal text-[32px] md:text-[40px] lg:text-[44px] xl:text-[50px] leading-[120%] text-white mb-5">
               Your Puppy&apos;s First Year —{" "}
-              <span className="inline">Guided Week by Week</span>
+              <span className="inline">Beta Preview</span>
             </h2>
 
             {/* Description paragraphs */}
@@ -197,14 +197,13 @@ export function PuppyFirstYearSection() {
               className="text-[15px] md:text-[16px] leading-[145%] text-white/85 mb-3"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-              The first year of a dog&apos;s life is full of important milestones.
+              We&apos;re building week-by-week guidance for new puppy parents.
             </p>
             <p
               className="text-[15px] md:text-[16px] leading-[145%] text-white/85 mb-8"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-              PawPair guides new dog parents through every stage with weekly insights,
-              reminders, and tips tailored to your puppy&apos;s development.
+              In beta we&apos;re testing milestones, reminders, and tips tailored to your puppy&apos;s development.
             </p>
 
             {/* kidcare.png image */}

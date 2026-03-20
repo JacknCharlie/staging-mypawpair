@@ -37,29 +37,29 @@ export function FAQSection() {
 
   const faqs = [
     {
-      question: "Is it normal that my puppy sleeps 18 hours a day?",
+      question: "What is the beta testing for?",
       answer:
-        "Yes, it's completely normal! Puppies need lots of sleep for healthy growth and development. Young puppies (8-12 weeks) can sleep 18-20 hours per day. As they grow, this will gradually decrease to 12-14 hours by adulthood.",
+        "Beta helps us refine PawPair before launch. We're testing features, gathering feedback, and improving the experience for the public release. Your input shapes how we build.",
     },
     {
-      question: "What food is best for a 6-month Golden with a sensitive stomach?",
+      question: "How do I join the beta?",
       answer:
-        "For a Golden Retriever with a sensitive stomach, look for limited ingredient diets with easily digestible proteins like chicken, turkey, or salmon. Avoid foods with corn, wheat, or soy. Consider brands specifically formulated for sensitive stomachs and introduce new foods gradually over 7-10 days.",
+        "Sign up with your email on this page. We'll send you access and updates as we add new features and improvements during the beta period. Check your inbox for next steps.",
     },
     {
-      question: "How do I stop leash pulling?",
+      question: "When will the full product launch?",
       answer:
-        "Start with positive reinforcement training. Stop walking when your dog pulls and only move forward when the leash is loose. Reward your dog frequently for walking beside you. Consider using a front-clip harness for better control and practice in low-distraction areas first.",
+        "We're actively building and improving. The launch date will be announced to beta testers first. Your feedback shapes our timeline and priorities for the public release.",
     },
     {
-      question: "How do I stop my dog from pulling on the leash during walks?",
+      question: "Is my data safe during beta?",
       answer:
-        "Use the 'stop and go' method: when your dog pulls, stop immediately and wait. Only continue walking when they return to your side and the leash is slack. Consistency is key. You can also try the 'reverse direction' technique where you turn and walk the opposite way whenever pulling occurs.",
+        "Yes. We use the same security standards for beta as we will for launch. Your dog's profile and data are protected and never shared. We take privacy seriously.",
     },
     {
-      question: "How often should I take my dog to the vet?",
+      question: "Can I invite friends to beta?",
       answer:
-        "Adult dogs should visit the vet at least once a year for a wellness check and vaccinations. Puppies need more frequent visits (every 3-4 weeks until 16 weeks old). Senior dogs (7+ years) benefit from twice-yearly checkups. Always consult your vet if you notice any health concerns.",
+        "We're gradually expanding beta access. Share your feedback and we may open more spots. Check back for updates on waitlist availability and referral options.",
     },
   ];
 
@@ -79,16 +79,12 @@ export function FAQSection() {
             }`}
           >
             <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#2F3E4E]">
-              Ask PawPair Anything
+              Beta FAQ — Sample Questions
             </h2>
             <p
               className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563] mt-[20px]"
-             
             >
-              PawPair AI is your personal dog care assistant, ready to help
-              anytime. Ask questions about your dog's health, behavior,
-              nutrition, or training and get instant answers tailored to your
-              dog's breed, age, and personality.
+              These are sample questions we&apos;re testing in beta. Real answers will be tailored to your dog&apos;s breed, age, and personality once we launch.
             </p>
           </div>
 

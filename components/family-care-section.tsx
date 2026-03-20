@@ -31,11 +31,11 @@ export function FamilyCareSection() {
   }, []);
 
   const points = [
-    "Former vet techs",
-    "Trainers",
-    "Long-time pet sitters",
-    "Retired pet lovers",
-    "Passion-driven small business owners",
+    "Experienced caregivers",
+    "Qualified trainers",
+    "Dedicated pet sitters",
+    "Passionate dog lovers",
+    "Local service providers",
   ];
 
   return (
@@ -52,20 +52,20 @@ export function FamilyCareSection() {
             }`}
           >
             <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[44px] leading-[120%] text-[#2F3E4E]">
-              Trusted Local Providers
+              Trusted Local Providers (Coming in Beta)
             </h2>
 
             <p
               className="text-[16px] !mt-5 font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-             PawPair connects you with verified trainers, groomers, vets, and walkers in your area. The AI can recommend the right provider based on your dog’s specific needs.
+             We're building connections to verified trainers, groomers, vets, and walkers. Beta will test provider matching based on your dog's needs.
             </p>
    <div className="!mt-6">
               <h3
                 className=" text-[18px] !text-[#000000]  font-modern font-normal leading-[120%] mb-5  md:text-[20px] xl:text-[24px]"
               >
-                Many are:
+                We&apos;re looking for:
               </h3>
       {/* List Points */}
 <div className="!mt-6 space-y-3">
@@ -105,7 +105,7 @@ export function FamilyCareSection() {
               className="text-[16px] !mt-5 font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-              We prioritize heart, patience, and experience.
+              Beta testers help us vet providers before launch.
             </p>
           </div>
 

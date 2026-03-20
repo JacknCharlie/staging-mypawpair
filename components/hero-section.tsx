@@ -55,13 +55,13 @@ export function HeroSection() {
               <h1 
                 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[45px] xl:text-[60px] leading-[120%] text-[#2F3E4E]"
               >
-                Meet the AI that knows your dog.
+                Try PawPair Beta — the AI built for dog care.
               </h1>
 
               <p 
                 className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563]"
               >
-                AI-powered care that understands your dog, not just your zip code. <span className="font-medium text-[#5F7E9D]">Now in Beta.</span>
+                This is our staging environment. We&apos;re testing features and gathering feedback before the public launch.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-[10px] sm:gap-[5px] mt-8">

@@ -54,23 +54,22 @@ export function EnergyMatchSection() {
           >
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#2F3E4E]"
-               
             >
-              A Care Profile Built Around Your Dog
+              Beta: A Care Profile Built Around Your Dog
             </h2>
 
             <p
               className="text-[16px] !mt-5 font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-            The more you tell PawPair about your dog, the smarter it gets.  Every answer is personalized to your dog's breed, age, health history, and personality.
+              In beta we&apos;re testing how your profile improves. Each answer is tailored to breed, age, health, and personality.
             </p>
 
             <div className="!mt-6">
               <h3
                 className=" text-[18px] !text-[#000000]  font-modern font-normal leading-[120%] mb-5  md:text-[20px] xl:text-[24px]"
               >
-                Your dog's profile gets smarter over time.  
+                Your dog&apos;s profile gets smarter as we test.
               </h3>
 
               <div className="space-y-3">
@@ -104,7 +103,7 @@ export function EnergyMatchSection() {
               className="text-[16px] !mt-5 font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-             This allows PawPair to give advice tailored specifically to your dog.
+              Feedback from beta helps us refine this for launch.
             </p>
           </div>
 

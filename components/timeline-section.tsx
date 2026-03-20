@@ -69,7 +69,7 @@ export function TimelineSection() {
       image: "/timeline1.png",
       title: "Create your dog's profile",
       description:
-        "Tell PawPair about your dog’s breed, age, health, and personality.",
+        "In beta: add breed, age, health, and personality details to your profile.",
       position: "left",
     },
     {
@@ -77,7 +77,7 @@ export function TimelineSection() {
       image: "/timeline2.png",
       title: "Ask the AI anything",
       description:
-        "Get instant guidance about training, nutrition, behavior, and care.",
+        "Beta: get guidance on training, nutrition, behavior, and care as we test.",
       position: "right",
     },
     {
@@ -85,7 +85,7 @@ export function TimelineSection() {
       image: "/timeline3.png",
       title: "Find trusted local providers",
       description:
-        "When you need help, PawPair connects you with verified trainers, groomers, walkers, and vets.",
+        "Coming soon: we're building connections to verified trainers, groomers, walkers, and vets.",
       position: "left",
     },
   ];
@@ -101,7 +101,7 @@ export function TimelineSection() {
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]"
             >
-              How PawPair Works
+              How PawPair Will Work (Beta Preview)
             </h2>
             <span className="px-2.5 py-1 bg-white/25 text-white text-[13px] font-semibold rounded">Beta</span>
           </div>
@@ -109,7 +109,7 @@ export function TimelineSection() {
             className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-center text-[#fff]"
             style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
           >
-            Start your dog's journey with the right match.
+            We&apos;re prototyping the full flow. Join beta to try it early.
           </p>
         </div>
 
