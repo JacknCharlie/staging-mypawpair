@@ -31,7 +31,7 @@ export function FamilyCareSection() {
   }, []);
 
   const points = [
-    "Experienced caregivers",
+    "Experienced providers",
     "Qualified trainers",
     "Dedicated pet sitters",
     "Passionate dog lovers",
