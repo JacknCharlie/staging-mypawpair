@@ -1,6 +1,6 @@
 # Waitlist Setup Instructions
 
-This document explains how to set up the waitlist feature for PawPair.
+This document explains how to set up the waitlist feature for myPawPair.
 
 ## Prerequisites
 

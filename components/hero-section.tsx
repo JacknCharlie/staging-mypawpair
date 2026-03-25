@@ -55,7 +55,7 @@ export function HeroSection() {
               <h1 
                 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[45px] xl:text-[60px] leading-[120%] text-[#2F3E4E]"
               >
-                Try PawPair Beta — the AI built for dog care.
+                Try myPawPair Beta — the AI built for dog care.
               </h1>
 
               <p 

@@ -39,7 +39,7 @@ export function FAQSection() {
     {
       question: "What is the beta testing for?",
       answer:
-        "Beta helps us refine PawPair before launch. We're testing features, gathering feedback, and improving the experience for the public release. Your input shapes how we build.",
+        "Beta helps us refine myPawPair before launch. We're testing features, gathering feedback, and improving the experience for the public release. Your input shapes how we build.",
     },
     {
       question: "How do I join the beta?",
@@ -79,7 +79,7 @@ export function FAQSection() {
             }`}
           >
             <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#2F3E4E]">
-              Beta FAQ — Sample Questions
+              Ask myPawPair Anything
             </h2>
             <p
               className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563] mt-[20px]"

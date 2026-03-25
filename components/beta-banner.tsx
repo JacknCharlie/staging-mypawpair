@@ -7,7 +7,7 @@ export function BetaBanner() {
         <span className="inline-block px-2 py-0.5 bg-white/20 rounded font-semibold mr-2">
           BETA
         </span>
-        You&apos;re viewing PawPair Beta — our staging environment. This product is in active development. Your feedback helps us improve!
+        You&apos;re viewing myPawPair Beta — our staging environment. This product is in active development. Your feedback helps us improve!
       </p>
     </div>
   );

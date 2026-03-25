@@ -101,7 +101,7 @@ export function TimelineSection() {
             <h2
               className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]"
             >
-              How PawPair Will Work (Beta Preview)
+              How myPawPair Works (Beta Preview)
             </h2>
             <span className="px-2.5 py-1 bg-white/25 text-white text-[13px] font-semibold rounded">Beta</span>
           </div>

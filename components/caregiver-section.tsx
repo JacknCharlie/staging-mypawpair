@@ -92,7 +92,7 @@ export function CaregiverSection() {
               className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563] mt-[20px] "
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-              In beta we&apos;re testing how PawPair learns and responds to your dog&apos;s profile.
+              In beta we&apos;re testing how myPawPair learns and responds to your dog&apos;s profile.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-[40px]">
