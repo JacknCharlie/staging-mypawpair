@@ -32,7 +32,7 @@ export function Header() {
 
   return (
     <>
-      <header className="header-main py-5 px-0 w-full bg-[#F6F2EA] sticky top-0 z-50">
+      <header className="header-main py-5 px-0 w-full bg-[#FFF2DD] sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="header-row flex items-center justify-between h-20">
             <Link href="/" className="logo flex items-center gap-2">
@@ -45,9 +45,9 @@ export function Header() {
                 className="h-12 w-auto"
                 priority
               />
-              <span className="hidden sm:inline-flex px-2 py-0.5 bg-[#5F7E9D] text-white text-[11px] font-semibold rounded uppercase tracking-wide">
+              {/* <span className="hidden sm:inline-flex px-2 py-0.5 bg-[#5F7E9D] text-white text-[11px] font-semibold rounded uppercase tracking-wide">
                 Beta
-              </span>
+              </span> */}
             </Link>
 
             <nav className="navigation hidden nav:flex items-center space-x-[49px] md:space-x-[15px] lg:space-x-[49px]">
@@ -71,7 +71,7 @@ export function Header() {
               </button>
               <Link
                 href="/auth/login"
-                className="px-6 py-3 bg-[#5F7E9D] text-white font-modern font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white md:text-[14px] hover:text-[#5F7E9D] m-0 hover:border-[#5F7E9D] transition-all duration-300"
+                className="HEADER-BTN px-6 py-3 bg-[#5F7E9D] text-white font-modern font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white md:text-[14px] hover:text-[#5F7E9D] m-0 hover:border-[#5F7E9D] transition-all duration-300"
               >
                 Create Your Dog's Profile
               </Link>
@@ -111,7 +111,7 @@ export function Header() {
         <nav className="flex flex-col items-center justify-center h-full gap-2 px-8">
           <button
             onClick={() => scrollToSection("about")}
-            className={`text-[#2F3E4E] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
+            className={`!text-[#260900] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
               isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
             style={{ transitionDelay: isMenuOpen ? "150ms" : "0ms" }}
@@ -129,7 +129,7 @@ export function Header() {
           <Link
             href="/auth/caregiver-signup"
             onClick={() => setIsMenuOpen(false)}
-            className={`text-[#2F3E4E] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
+            className={`text-[#260900] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
               isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
             style={{ transitionDelay: isMenuOpen ? "250ms" : "0ms" }}
@@ -146,7 +146,7 @@ export function Header() {
 
           <button
             onClick={() => scrollToSection("contact")}
-            className={`text-[#2F3E4E] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
+            className={`text-[#260900] font-modern font-normal text-[32px] leading-[100%] py-5 hover:text-[#5F7E9D] transition-all duration-500 ${
               isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
             style={{ transitionDelay: isMenuOpen ? "350ms" : "0ms" }}
@@ -162,7 +162,7 @@ export function Header() {
             }`}
             style={{ transitionDelay: isMenuOpen ? "450ms" : "0ms" }}
           >
-            Create Your Dog's Profile
+            Create Your Pet's Profile
           </Link>
         </nav>
       </div>

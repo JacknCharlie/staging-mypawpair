@@ -67,9 +67,9 @@ export function TimelineSection() {
     {
       icon: "/ticons1.png",
       image: "/timeline1.png",
-      title: "Create your dog's profile",
+      title: "Create your pet's profile",
       description:
-        "In beta: add breed, age, health, and personality details to your profile.",
+        "Tell myPawPair about your pet's breed, age, health, and personality.",
       position: "left",
     },
     {
@@ -77,7 +77,7 @@ export function TimelineSection() {
       image: "/timeline2.png",
       title: "Ask the AI anything",
       description:
-        "Beta: get guidance on training, nutrition, behavior, and care as we test.",
+        "Get instant guidance about training, nutrition, behavior, and care.",
       position: "right",
     },
     {
@@ -85,7 +85,7 @@ export function TimelineSection() {
       image: "/timeline3.png",
       title: "Find trusted local providers",
       description:
-        "Coming soon: we're building connections to verified trainers, groomers, walkers, and vets.",
+        "When you need help, myPawPair connects you with verified trainers, groomers, walkers, and vets.",
       position: "left",
     },
   ];
@@ -93,23 +93,23 @@ export function TimelineSection() {
   return (
     <section
       ref={sectionRef}
-      className="w-full py-[60px] bg-[#5F7E9D] relative overflow-hidden"
+      className="w-full py-[60px] bg-[rgba(243,180,67,0.5)] relative overflow-hidden"
     >
       <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-16">
         <div className="text-center mb-16 md:mb-20">
           <div className="flex items-center justify-center gap-3 mb-4 flex-wrap">
             <h2
-              className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]"
+              className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#260900]"
             >
-              How myPawPair Works (Beta Preview)
+             How myPawPair Works
             </h2>
-            <span className="px-2.5 py-1 bg-white/25 text-white text-[13px] font-semibold rounded">Beta</span>
+           
           </div>
           <p
-            className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-center text-[#fff]"
+            className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-center text-[#825E46]"
             style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
           >
-            We&apos;re prototyping the full flow. Join beta to try it early.
+           Start your pet journey with the right match.
           </p>
         </div>
 
@@ -199,7 +199,7 @@ export function TimelineSection() {
                 </div>
 
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:block z-10">
-                  <div className="w-6 h-6 rounded-full bg-white border-4 border-[#5F7E9D] shadow-lg" />
+                  <div className="w-6 h-6 rounded-full bg-white border-4 border-[#FFF2DD] shadow-lg" />
                 </div>
               </div>
             ))}

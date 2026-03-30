@@ -17,7 +17,7 @@ export function HeroSection() {
         className="home-banner absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/Background.png')", height:641, 
-          backgroundColor: "#F6F2EA",
+          backgroundColor: "#FFF2DD",
         }}
       />
 
@@ -53,29 +53,29 @@ export function HeroSection() {
               style={{ transitionDelay: "400ms" }}
             >
               <h1 
-                className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[45px] xl:text-[60px] leading-[120%] text-[#2F3E4E]"
+                className="!text-[#260900] font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[45px] xl:text-[60px] leading-[120%] text-[#2F3E4E]"
               >
-                Try myPawPair Beta — the AI built for dog care.
+                Meet the AI that <br/> knows your pet.
               </h1>
 
               <p 
                 className="font-inter font-normal text-[18px] leading-[120%] text-[#4A5563]"
               >
-                This is our staging environment. We&apos;re testing features and gathering feedback before the public launch.
+                AI-powered care that understands your pet, not just your zip code.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-[10px] sm:gap-[5px] mt-8">
+              <div className="flex flex-col sm:flex-row gap-[25px] sm:gap-[20px] mt-8">
                 <Link
                   href="/auth/login"
-                  className="font-modern inline-block px-8 py-3.5 bg-[#5F7E9D] text-white font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-300 text-center"
+                  className="btn-same font-modern inline-block px-8 py-3.5 bg-[#5F7E9D] text-white font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-300 text-center"
                 >
-                  Create Your Dog's Profile
+                  Create Your Pet's Profile
                 </Link>
                 <Link
                   href="/auth/login"
-                  className="font-modern inline-block px-8 py-3.5 text-[#5F7E9D] font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-[#5F7E9D] hover:bg-[#5F7E9D] hover:text-white transition-all duration-300 text-center"
+                  className="btn-same btn-ext font-modern inline-block px-8 py-3.5 text-[#5F7E9D] font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-[#5F7E9D] hover:bg-[#5F7E9D] hover:text-white transition-all duration-300 text-center"
                 >
-                  Login as Provider
+                  Ask myPawPair AI
                 </Link>
               </div>
             </div>
