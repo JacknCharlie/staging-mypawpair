@@ -66,12 +66,12 @@ export function Footer() {
       
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 sm:px-12 lg:px-16 py-24 md:py-32 pb-32 md:pb-40">
         <div className="flex flex-col items-center text-center md:max-w-[756px] md:mx-auto space-y-4">
-          <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#fff]">
-            Get Early Access to myPawPair
+          <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[46px] leading-[120%] text-[#FFF2DD]">
+        Get Early Access to myPawPair
           </h2>
 
           <p className="text-[16px] !mt-5 font-inter font-normal md:text-[18px] leading-[120%] text-[#fff]">
-            You&apos;re viewing our staging environment. myPawPair is currently in beta — we&apos;re actively building and improving. Join the waitlist to get early access, updates, and help shape the product before our public launch.
+             Be among the first pet owners to experience myPawPair — the AI assistant designed to understand your pet. Join the waitlist to get early access, updates, and exclusive features before the public launch.
           </p>
 
           {/* Email + Button Form */}
@@ -122,7 +122,7 @@ export function Footer() {
       </div>
 
       <div className="relative z-10 px-8 sm:px-12 lg:px-16 pb-8 -mt-24 md:-mt-28">
-        <div className="max-w-[1200px] mx-auto bg-[#F6F2EA] rounded-[20px] px-16 !pb-[30px] md:px-24 py-10 md:py-12 shadow-2xl">
+        <div className="footer-inner-bg max-w-[1200px] mx-auto bg-[#F6F2EA] rounded-[20px] px-16 !pb-[30px] md:px-24 py-10 md:py-12 shadow-2xl">
           <div className="flex flex-col items-center text-center space-y-5">
             <Link href="/" className="flex items-center">
               <Image
@@ -136,13 +136,13 @@ export function Footer() {
 
             <div className="max-w-2xl">
               <p className=" font-inter text-[16px] text-[#4A5563] font-['Inter'] md:text-[18px] font-normal leading-[120%] tracking-[0%]">
-              AI-powered care for your dog, starting in your neighborhood. <span className="font-medium text-[#5F7E9D]">Currently in Beta.</span>
+             AI-powered care for your pet, starting in your neighborhood.  
               </p>
             </div>
 
             <div className="pt-6 w-full border-t border-[#000000]/10">
-              <p className=" font-inter text-[16px] text-[#000000] font-['Inter'] md:text-[18px] font-normal leading-[120%] tracking-[0%] opacity-80">
-                © 2026 myPawPair. All rights reserved. Staging / Beta environment.
+              <p className=" font-inter text-[16px] text-[#260900] font-['Inter'] md:text-[18px] font-normal leading-[120%] tracking-[0%] opacity-80">
+                © 2026 myPawPair. All rights reserved.
               </p>
             </div>
           </div>

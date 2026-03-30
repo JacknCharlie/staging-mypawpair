@@ -1,5 +1,4 @@
 import { Header } from "@/components/header";
-import { BetaBanner } from "@/components/beta-banner";
 import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero-section";
 import { CaregiverSection } from "@/components/caregiver-section";
@@ -14,7 +13,6 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <Header />
-      <BetaBanner />
       <HeroSection />
       <CaregiverSection />
       <TimelineSection />
