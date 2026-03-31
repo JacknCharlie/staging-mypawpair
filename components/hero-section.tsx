@@ -22,7 +22,7 @@ export function HeroSection() {
       />
 
       <div className="relative z-10 w-full flex items-center">
-        <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-8 py-8 w-full">
+        <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-8 py-8 pb-0 w-full">
           <div className="flex flex-col md:flex-row gap-[50px] items-center">
             <div
               className={`w-full order-2 md:order-1 lg:order-1 flex justify-center  md:max-w-[476px] lg:justify-start  transition-all duration-1000 ${
@@ -64,7 +64,7 @@ export function HeroSection() {
                 AI-powered care that understands your pet, not just your zip code.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-[25px] sm:gap-[20px] mt-8">
+              <div className="banner-btn-same flex flex-col sm:flex-row gap-[25px] sm:gap-[20px] mt-8">
                 <Link
                   href="/auth/login"
                   className="btn-same font-modern inline-block px-8 py-3.5 bg-[#5F7E9D] text-white font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-300 text-center"

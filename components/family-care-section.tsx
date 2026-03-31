@@ -117,7 +117,7 @@ export function FamilyCareSection() {
           >
             <div className="relative w-full md:max-w-full lg:max-w-[600px] mx-auto lg:ml-auto">
               <Image
-                               src="/caredog.png"
+                               src="/trustedimg.png"
                                alt="Man with dog in kitchen"
                                width={600}
                                height={450}

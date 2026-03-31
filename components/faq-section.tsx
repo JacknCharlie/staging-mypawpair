@@ -100,7 +100,7 @@ export function FAQSection() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className={`bg-[#FFF2DD] border border-[#825E46] rounded-[16px] shadow-[0px_2px_4px_rgba(137,82,43,0.6),inset_0px_4px_8px_rgba(137,82,43,0.3)] overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 ${
+                className={`accordion-main-bg bg-[#FFF2DD] border border-[#825E46] rounded-[16px]  overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 ${
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                 }`}
                 style={{

@@ -181,14 +181,14 @@ export function TimelineSection() {
                         />
                       </div>
                       <h3
-                        className=" text-[18px] !text-[#2F3E4E]  font-modern font-normal leading-[120%]  md:text-[20px] xl:text-[24px]"
+                        className=" text-[18px] !text-[#260900]  font-modern font-normal leading-[120%]  md:text-[20px] xl:text-[24px]"
                         
                       >
                         {item.title}
                       </h3>
                     </div>
                     <p
-                      className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
+                      className="text-[16px] font-sans font-normal md:text-[18px] leading-[120%] text-[#6B7280]"
                       style={{
                         fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
                       }}

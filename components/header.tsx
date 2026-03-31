@@ -73,7 +73,7 @@ export function Header() {
                 href="/auth/login"
                 className="HEADER-BTN px-6 py-3 bg-[#5F7E9D] text-white font-modern font-normal text-[18px] leading-[100%] rounded-[10px] border-2 border-transparent hover:bg-white md:text-[14px] hover:text-[#5F7E9D] m-0 hover:border-[#5F7E9D] transition-all duration-300"
               >
-                Create Your Dog's Profile
+                Create Your Pet's Profile
               </Link>
             </nav>
 
@@ -93,7 +93,7 @@ export function Header() {
 
       {/* Full-screen mobile menu overlay */}
       <div
-        className={`fixed inset-0 z-[60] bg-[#F6F2EA] transition-all duration-500 ease-in-out nav:hidden ${
+        className={`header-row fixed inset-0 z-[60] bg-[#F6F2EA] transition-all duration-500 ease-in-out nav:hidden ${
           isMenuOpen
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
@@ -157,7 +157,7 @@ export function Header() {
           <Link
             href="/auth/login"
             onClick={() => setIsMenuOpen(false)}
-            className={`mt-8 w-full max-w-[320px] text-center px-8 py-4 bg-[#5F7E9D] text-white font-modern font-normal text-[20px] leading-[100%] rounded-[14px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-500 ${
+            className={`HEADER-BTN  mt-8 w-full max-w-[320px] text-center px-8 py-4 bg-[#5F7E9D] text-white font-modern font-normal text-[20px] leading-[100%] rounded-[14px] border-2 border-transparent hover:bg-white hover:text-[#5F7E9D] hover:border-[#5F7E9D] transition-all duration-500 ${
               isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
             style={{ transitionDelay: isMenuOpen ? "450ms" : "0ms" }}
