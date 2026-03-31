@@ -83,20 +83,8 @@
   font-style: normal;
   font-display: swap;
 }
- .header-row .navigation a {
-    color: #260900;
-}
-
- .header-row .HEADER-BTN {
-    background: #F3B443 !important;
-    padding: 15px 42px;
-    border-radius: 50px;
-    font-size: 18px !important;
-    box-shadow: 0px 4px 8px rgba(137, 82, 43, 0.5), inset 0px -4px 8px rgba(137, 82, 43, 0.3);
-    border-radius: 74px;
-        color: #fff !important;
-    border: 1px solid #F3B443 !important;
-}
+ .header-row .navigation a { color: #260900;}
+ .header-row .HEADER-BTN {  background: #F3B443 !important;  padding: 15px 42px;  border-radius: 50px;  font-size: 18px !important;  box-shadow: 0px 4px 8px rgba(137, 82, 43, 0.5), inset 0px -4px 8px rgba(137, 82, 43, 0.3);  border-radius: 74px;      color: #fff !important;  border: 1px solid #F3B443 !important;}
 
  .header-row .HEADER-BTN:hover {
     background: transparent !important;
@@ -112,14 +100,8 @@
 .time-line-row .timeline-item { margin-top: 40px !important;}
 .footer-bg {  background-position: top center;}
 .accordion-btn { width: 32px; height: 32px;  background: #fff; border-radius: 50px; border: 1px solid #dfe5eb;}
-.accordion-btn svg paTH {
-    fill: #182430;
-    stroke: #182430;
-}
-.home-banner {
-    background-image: none !important;
-}
-
+.accordion-btn svg paTH {  fill: #182430;  stroke: #182430;}
+.home-banner {  background-image: none !important;}
 .btn-same {
     background: #F3B443 !important;
     padding: 15px 42px;
@@ -155,7 +137,6 @@
     border-radius: 16px;
 }
 .accordion-btn {
-    
     border: 0px !important;
     background: #FFF2DD;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
