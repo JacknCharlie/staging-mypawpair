@@ -31,11 +31,11 @@ export function FamilyCareSection() {
   }, []);
 
   const points = [
-    "Experienced providers",
-    "Qualified trainers",
-    "Dedicated pet sitters",
-    "Passionate dog lovers",
-    "Local service providers",
+    "Former vet techs",
+    "Trainers",
+    "Long-time pet sitters",
+    "Retired pet lovers",
+    "Passion-driven small business owners",
   ];
 
   return (
@@ -52,14 +52,14 @@ export function FamilyCareSection() {
             }`}
           >
             <h2 className="font-['Modern_Sans'] font-normal text-[27px] md:text-[36px] lg:text-[40px] xl:text-[44px] leading-[120%] text-[#260900]">
-         Trusted Local Care Providers
+        Trusted Local Providers
             </h2>
 
             <p
               className="text-[16px] !mt-5 font-sans font-normal md:text-[18px] leading-[120%] text-[#4A5563]"
               style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
             >
-             myPawPair connects you with verified trainers, groomers, vets, and walkers in your area. The AI can recommend the right provider based on your pet specific needs.
+            myPawPair connects you with verified trainers, groomers, vets, and walkers in your area. The AI can recommend the right provider based on your pet specific needs.
             </p>
    <div className="!mt-6">
               <h3
